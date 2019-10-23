@@ -70,4 +70,8 @@ public class User {
     public void addFolders(List<Folder> folders) {
         this.folders = folders;
     }
+
+    public void addFiles(List<File> files) {
+        this.files = files;
+    }
 }
